@@ -1,38 +1,40 @@
 # Assignment 4: Exploring Emerging Technologies in Education & IT
 
-## Artificial Intelligence (AI)
+## Internet of Things (IoT)
 
 ### Purpose
-The main purpose of Artificial Intelligence (AI) is to simulate human intelligence processes in machines, enabling them to perform tasks such as learning, problem-solving, and decision-making. AI aims to automate tasks, improve efficiency, and enhance accuracy in both education and IT sectors.
+
+The main purpose of the Internet of Things (IoT) is to connect everyday physical devices to the internet, enabling them to send, receive, and process data. This connectivity enhances automation, real-time monitoring, and data-driven decision-making across various sectors, including education and IT.
 
 - **Reference:**  
-  _Smith, J. (2023). "Artificial Intelligence in Education: Trends and Applications." EdTech Magazine. Retrieved from [https://www.edtechmagazine.com/higher/article/2023/02/artificial-intelligence-education](https://www.edtechmagazine.com/higher/article/2023/02/artificial-intelligence-education)_
+  _Jones, M. (2024). "The Impact of IoT on Smart Environments." IoT Today. Retrieved from [https://www.iottoday.com/articles/iot-smart-environments](https://www.iottoday.com/articles/iot-smart-environments)_
+
 
 ### Usage
 
 - **In Education:**  
-AI personalizes learning by adapting to student performance. For example, **Duolingo** uses AI algorithms to tailor language lessons based on user progress.
+  IoT devices are transforming traditional classrooms into smart learning environments. These include smart boards, environmental sensors for temperature and lighting control, RFID-based attendance systems, and interactive learning tools. For example, **Cisco** provides IoT-enabled educational infrastructure to help institutions monitor engagement, energy usage, and student behavior.
 
-- **Reference:**  
-  _“AI-Powered Personalized Learning with Squirrel AI.” The Hechinger Report, 2023. Retrieved from [https://www.hechingerreport.org/squirrel-ai-adaptive-learning/](https://www.hechingerreport.org/squirrel-ai-adaptive-learning/)_
+  - **Reference:**  
+    _“IoT in Education: Building Smart Classrooms.” EdTech Magazine, 2023. Retrieved from [https://www.edtechmagazine.com/k12/article/2023/01/iot-smart-classrooms](https://www.edtechmagazine.com/k12/article/2023/01/iot-smart-classrooms)_
 
 - **In IT:**  
-AI is widely used in cybersecurity to detect threats and in data analytics. For example, **IBM Watson** provides AI-driven insights for IT infrastructure and healthcare.
+  In the IT industry, IoT plays a crucial role in asset tracking, infrastructure monitoring, predictive maintenance, and network optimization. Platforms like **Microsoft Azure IoT** enable businesses to securely connect, monitor, and manage devices across a wide area from the cloud.
 
-- **Reference:**  
-  _Watson, K. (2023). “How AI is Revolutionizing Cybersecurity.” TechCrunch. Retrieved from [https://techcrunch.com/2023/03/ai-cybersecurity/](https://techcrunch.com/2023/03/ai-cybersecurity/)_
+  - **Reference:**  
+    _Microsoft Azure (2023). “Azure IoT Overview.” Retrieved from [https://azure.microsoft.com/en-us/overview/iot/](https://azure.microsoft.com/en-us/overview/iot/)_
+    
 
 ### Examples
 
 - **In Education:**  
-Duolingo uses AI algorithms to adapt lessons to individual learning speeds.
+  **Cisco Systems** has partnered with educational institutions to create smart classrooms equipped with IoT sensors that control lighting, air quality, and occupancy. These systems help improve student focus and reduce energy consumption.
 
-- **Reference:**  
-  _Duolingo Blog (2023). “The Role of AI in Language Learning.” Retrieved from [https://www.duolingo.com/blog/ai-language-learning](https://www.duolingo.com/blog/ai-language-learning)_
+  - **Reference:**  
+    _Cisco Systems (2023). “Education Solutions.” Retrieved from [https://www.cisco.com/c/en/us/solutions/industries/education/index.html](https://www.cisco.com/c/en/us/solutions/industries/education/index.html)_
 
 - **In IT:**  
-Google DeepMind optimizes data center energy use through AI.
+  **Schneider Electric** uses **Microsoft Azure IoT** to monitor and manage its industrial systems remotely. With IoT integration, the company has optimized energy use, reduced downtime, and enhanced operational efficiency in multiple global facilities.
 
-- **Reference:**  
-  _“DeepMind's AI Cuts Google Data Center Energy Use.” The Verge, 2022. Retrieved from [https://www.theverge.com/2022/05/deepmind-ai-google-energy-use](https://www.theverge.com/2022/05/deepmind-ai-google-energy-use)_
-
+  - **Reference:**  
+    _Microsoft Azure Blog (2023). “Schneider Electric and Azure IoT: Optimizing Industrial Operations.” Retrieved from [https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot](https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot)_

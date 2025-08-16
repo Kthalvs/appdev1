@@ -37,4 +37,4 @@ The main purpose of the Internet of Things (IoT) is to connect everyday physical
   **Schneider Electric** uses **Microsoft Azure IoT** to monitor and manage its industrial systems remotely. With IoT integration, the company has optimized energy use, reduced downtime, and enhanced operational efficiency in multiple global facilities.
 
   - **Reference:**  
-    _Microsoft Azure Blog (2023). “Schneider Electric and Azure IoT: Optimizing Industrial Operations.” Retrieved from [https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot](https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot)_
+    _Microsoft Azure Blog (2023). “Schneider Electric and Azure IoT: Optimizing Industrial Operations.” Retrieved from [https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot](https://azure.microsoft.com/en-us/blog/schneider-electric-azure-iot)_  

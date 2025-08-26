@@ -1,30 +1,37 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3a1a5b; /* deep purple */
+  background: #fff5fb; /* very light pinkish white */
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  height: 5.5em;
+  padding: 1.2em;
+  transition: filter 0.3s ease;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  box-shadow:
+    0 4px 6px rgba(198, 155, 199, 0.3), /* subtle purple shadow */
+    0 0 12px #f9d5e5aa; /* soft pink glow */
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 10px #d58bbecc);
+  transform: scale(1.05);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 12px #ce93d8cc);
+  transform: scale(1.07);
 }
 
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,9 +41,78 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1.8rem;
+  background: #f9e6f7; /* soft lilac-pink */
+  border-radius: 20px; /* more “sticker” rounded corners */
+  box-shadow:
+    0 6px 8px rgba(212, 162, 223, 0.3),
+    inset 0 0 10px #f7c1deaa; /* inset glow for softness */
+  margin: 1.5rem 0;
+  text-align: left;
+  color: #5c2a72;
 }
 
 .read-the-docs {
-  color: #888;
+  color: #7b4f9e;
+  font-size: 0.9rem;
+  font-style: italic;
 }
+
+.about-me {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background: #fcebf7; /* pastel cherry blossom pink */
+  border-radius: 25px;
+  box-shadow:
+    0 8px 14px rgba(189, 126, 199, 0.25),
+    inset 0 0 15px #f9c3e1cc;
+  color: #6a3b7d;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-me h1,
+.about-me h2 {
+  color: #7d4a9c;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-me p {
+  margin: 1rem 0;
+  color: #5b2e7d;
+}
+
+.about-me strong {
+  color: #8b52b6;
+}
+
+/* Optional subtle cherry blossom petal shapes using pseudo-elements */
+
+.about-me::before {
+  content: '🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸';
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  font-size: 1.8rem;
+  opacity: 0.9;
+  user-select: none;
+  pointer-events: none;
+}
+
+.about-me::after {
+  content: '🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸';
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  font-size: 1.8rem;
+  opacity: 0.9;
+  user-select: none;
+  pointer-events: none;
+}
+

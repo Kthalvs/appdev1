@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+    <button onclick="changeColor()">Change Background</button>
+    <p id="colorDisplay"></p>
+    <p id="delayedMessage"></p>
+
+    <script>
+        function changeColor() {
+            const favoriteColor = prompt("What is your favorite color?");
+            document.body.style.backgroundColor = favoriteColor;
+            document.getElementById("colorDisplay").textContent = `Your favorite color is ${favoriteColor}`;
+
+            setTimeout(() => {
+                document.getElementById("delayedMessage").textContent = "This message appears after 2 seconds";
+            }, 2000);
+        }
+    </script>
+    
+</body>
+</html>

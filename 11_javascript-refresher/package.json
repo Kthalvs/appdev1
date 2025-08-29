@@ -1,0 +1,21 @@
+{
+  "name": "11_javascript-refresher",
+  "version": "1.0.0",
+  "main": "01_base_syntax.js",
+  "scripts": {
+    "dev": "node 01_base_syntax.js",
+    "dev": "node 02_variables.js",
+    "dev": "node 03_functions.js",
+    "dev": "node 04_objects.js",
+    "dev": "node 05_arrays.js",
+    "dev": "node 06_control_structures.js",
+    "dev": "node 07_dom.html",
+    "dev": "node 08_essential_features.js",
+    "dev": "node 09_tricky_parts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

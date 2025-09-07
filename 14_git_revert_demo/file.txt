@@ -1,2 +1,4 @@
 Line 1
 Line 2
+
+Realization: Revert added a new commit that removed Line 3, but previous commits still exist.

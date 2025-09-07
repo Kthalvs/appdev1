@@ -1,2 +1,4 @@
 Line 1
 Line 2
+
+Realization: Reset removed commits completely. We lost Line 3 and it's gone from history.

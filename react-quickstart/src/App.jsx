@@ -5,9 +5,9 @@ import './App.css'
 
 // User data
 const user = {
-  name: 'Hedy Lamarr',
-  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-  imageSize: 90,
+  name: 'Ada Lovelace',
+  imageUrl: 'https://i.imgur.com/7vQD0fPs.jpg',
+  imageSize: 100,
 };
 
 // Button component
@@ -27,15 +27,15 @@ function AboutPage() {
   );
 }
  
-// Main component
+// Main App component - this is where you combine everything
 export default function App() {
   return (
     <div>
       <h1>Welcome to my app</h1>
-      <MyButton/>
+      <MyButton />
       <AboutPage />
-
- {/* Showing user data below */}
+      
+      {/* Display user data */}
       <h1>{user.name}</h1>
       <img
         className="avatar"
@@ -43,12 +43,9 @@ export default function App() {
         alt={'Photo of ' + user.name}
         style={{
           width: user.imageSize,
-          height: user.imageSize
+          height: user.imageSize,
         }}
       />
     </div>
   );
 }
-
-
-

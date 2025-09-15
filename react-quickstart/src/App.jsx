@@ -29,23 +29,38 @@ function AboutPage() {
  
 // Main App component - this is where you combine everything
 export default function App() {
+  const [showUser, setShowUser] = useState(true);
+
   return (
     <div>
       <h1>Welcome to my app</h1>
       <MyButton />
       <AboutPage />
       
-      {/* Display user data */}
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize,
-        }}
-      />
+     {/* Conditional rendering example */}
+      {showUser ? (
+        <>
+          <h1>{user.name}</h1>
+          <img
+            className="avatar"
+            src={user.imageUrl}
+            alt={'Photo of ' + user.name}
+            style={{
+              width: user.imageSize,
+              height: user.imageSize
+            }}
+          />
+        </>
+      ) : (
+        <p>User info is hidden.</p>
+      )}
+
+      {/* Center Toggle Button */}
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}></div>
+      <button onClick={() => setShowUser(!showUser)}>
+        Toggle User Info
+      </button>
     </div>
   );
-}
+} 
+

@@ -3,10 +3,7 @@
 import { useState } from 'react';
 import './App.css';
 
-
-
-
-//Creating and Nesting Components change
+// Creating and Nesting Components change
 function MyButton() {
   return (
   <button>I'm a Button</button>
@@ -20,9 +17,6 @@ function MyApp() {
   );
 }
 
-
-
-
 // Writing Markup with JSX
 function AboutPage() {
   return (
@@ -32,7 +26,6 @@ function AboutPage() {
     </>
   );
 }
-
 
 // Displaying Data
 const user = {
@@ -59,7 +52,6 @@ function Profile() {
   );
 }
 
-
 // Conditional Rendering
 function AdminPanel() {
   return <h2>Welcome Admin</h2>;
@@ -78,7 +70,6 @@ function ConditionalRendering({ isLoggedIn }) {
     </div>
   );
 }
-
 
 // Rendering Lists
 const products = [
@@ -102,7 +93,6 @@ function ShoppingList() {
   return <ul>{listItems}</ul>;
 }
 
-
 // Responding to Events
 function ClickButton() {
   function handleClick() {
@@ -112,7 +102,6 @@ function ClickButton() {
 
   return <button onClick={handleClick}>Click me</button>;
 }
-
 
 // Updating the Screen / Using Hooks
 function CounterButton() {
@@ -137,7 +126,6 @@ function SeparateCounters() {
     </div>
   );
 }
-
 
 // Sharing Data Between Components
 function SharedButton({ count, onClick }) {
@@ -166,7 +154,6 @@ function SharedCounterApp() {
     </div>
   );
 }
-
 
 // Main App Component - this is where we combine everything
 export default function App() {

@@ -1,4 +1,5 @@
-import { getImageUrl } from './utils/utils.js'
+import Card from './components/Card.jsx';
+import Avatar from './components/Avatar.jsx';
 
 export default function Profile() {
   return (
@@ -14,22 +15,4 @@ export default function Profile() {
   );
 }
 
-function Avatar({ person, size }) {
-  return (
-    <img
-      className="avatar"
-      src={getImageUrl(person)}
-      alt={person.name}
-      width={size}
-      height={size}
-    />
-  );
-}
 
-function Card({ children }) {
-  return (
-    <div className="card">
-      {children}
-    </div>
-  );
-}

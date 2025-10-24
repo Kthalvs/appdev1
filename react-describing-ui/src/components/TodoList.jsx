@@ -13,7 +13,7 @@ export default function TodoList() {
       <img
         className="avatar"
         src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt={person.name} // Embedding a variable in an attribute
+        alt={person.name} 
       />
       <ul>
         <li>Improve the videophone</li>

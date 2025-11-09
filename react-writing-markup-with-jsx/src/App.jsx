@@ -5,7 +5,7 @@ export default function TodoList() {
       <img 
         src="https://i.imgur.com/yXOvdOSs.jpg" 
         alt="Hedy Lamarr" 
-        class="photo"
+        className="photo"
       />
       <ul>
         <li>Invent new traffic lights</li>
@@ -15,3 +15,8 @@ export default function TodoList() {
     </>
   );
 }
+
+// Wrapped elements inside a React fragment for proper structure.
+// Used self-closing syntax for the img and li elements.
+// Applied camelCase to the className attribute following JSX standards.
+

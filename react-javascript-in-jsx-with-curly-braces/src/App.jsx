@@ -1,15 +1,10 @@
+const name = "Gregorio Y. Zara";
+
 export default function App() {
   return (
     <div>
-      <h2>Passing strings with quotes</h2>
-
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-
-      <p>"Strings can be written inside quotes"</p>
+      <h2>Using curly braces: A window into the JavaScript world</h2>
+      <h1>{name}'s To Do List</h1>
     </div>
   );
 }
